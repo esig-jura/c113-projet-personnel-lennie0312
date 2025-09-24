@@ -4,8 +4,8 @@
 ## 1. 🎨 Présentation du projet
 
 ### Concept
-- Thème choisi : …
-- Public cible : …
+- Thème choisi : site web sur les ongles, le métier de prothésiste ongulaire
+- Public cible : les personnes souhaitant faire leurs ongles
 - Objectifs du site : …
 
 ### Fonctionnalités prévues
@@ -35,7 +35,7 @@
 ## 3. 🛠️ Outils et méthodologie
 
 ### Environnement de travail
-- IDE : …
+- IDE : Webstorm
 - Navigateurs de test : …
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
