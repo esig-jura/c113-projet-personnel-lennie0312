@@ -5,7 +5,7 @@ h3 {
     color : #000000;
 }
 body {
-    background-color : #FFE5EC;
+    background-color : #fff0f6;
 }
 h1 {
     text-shadow : 2px 2px 2px rgba(206,89,55,0);
@@ -26,4 +26,7 @@ h2 {
     overflow: hidden;
     text-align: center;
 }
-
+footer {
+    background-color: #fff0f6;
+    text-align: center;
+}
