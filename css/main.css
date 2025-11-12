@@ -14,6 +14,17 @@ nav a {
     color: #A4133C;
     font-weight: bold;
 }
+nav a:hover {
+    color: #FF0A54;
+    text-decoration: underline;
+}
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(255, 240, 246, 0.6);
+    box-shadow: 0 4px 15px rgba(164,19,60,0.1);
+}
 .great-vibes {
     font-family: 'Great Vibes', cursive;
     font-size: 1.5rem;
@@ -21,6 +32,14 @@ nav a {
 .lato {
     font-family: 'lato', cursive;
     font-size: 1.5rem;
+}
+p.lato {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+h2.great-vibes {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 #présentation {
     background: white;
@@ -44,6 +63,7 @@ p {
 }
 #photos img {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
 }
 #photos img:hover {
@@ -72,7 +92,7 @@ h2 {
     text-align: center;
 }
 .btn {
-    background-color: #f8a5c2;
+    background-color: #A4133C;
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
@@ -84,10 +104,15 @@ h2 {
 .btn:hover {
     background-color: #f78fb3;
 }
+.rdv-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 footer {
     text-align: center;
     background: linear-gradient(rgba(255, 192, 203,0.8), rgba(255, 192, 203,0.8)),
-    url("../img/imagelogo3.jpg") left;
+    url("../img/imagelogo.jpg") left;
 }
 @font-face {
     font-display: swap;
