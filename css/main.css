@@ -21,7 +21,33 @@ nav a:hover {
     color: #FF0A54;
     text-decoration: underline;
 }
-
+header .accueil,
+header .titre-principal {
+    display: none;
+}
+.Accueil {
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+}
+.titre {
+        border: 3px solid #FF0A54;
+        padding: 25px;
+        color: #A4133C;
+        font-family: 'Lato', 'Comic Sans MS', cursive;
+        font-size: 1.1rem;
+        overflow: hidden;
+        text-align: center;
+}
+.great-vibes-citation {
+    font-family : 'Great Vibes', cursive;
+    border: none;
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    color : #000000;
+    font-weight: 350;
+}
 section {
     margin: 2rem auto;
     padding: 2rem;
@@ -41,12 +67,12 @@ section {
 }
 
 p.lato {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
 h2.great-vibes {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -94,18 +120,18 @@ body {
 .symboles li {
     list-style: none;
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 .symboles li::before {
     position: absolute;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     content: "";
-    left: 0;
+    left: -25px;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url("../img/imagelogo4.png");
+    background-image: url("../img/imagelogo5.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -117,12 +143,12 @@ body {
 .symboles2 li::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: -25px;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url("../img/imagelogo7.png");
+    background-image: url("../img/imagelogo4.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -143,7 +169,7 @@ h2 {
     padding: 25px;
     color: #A4133C;
     font-family: 'Lato', 'Comic Sans MS', cursive;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     overflow: hidden;
     text-align: center;
 }
@@ -173,6 +199,13 @@ footer {
     text-align: center;
     background: linear-gradient(rgba(255, 192, 203, 0.8), rgba(255, 192, 203, 0.8)),
     url("../img/imagelogo.jpg") left;
+}
+footer h2 {
+    border: none;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: bold;
 }
 
 @font-face {
