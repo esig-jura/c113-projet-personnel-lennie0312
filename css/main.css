@@ -247,16 +247,23 @@ p {
     max-width : 60ch;
 }
 
+#photos {
+    padding: 1.2rem;
+}
+
 .photos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     justify-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .photos-grid img {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -408,7 +415,15 @@ footer h2 {
     font-weight: 400;
     src: url('../fonts/great-vibes-v21-latin-regular.woff2') format('woff2');
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+
+        .photos-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .photos-grid img {
+            max-width: 100%;
+        }
 
     header {
         padding: 1rem;
