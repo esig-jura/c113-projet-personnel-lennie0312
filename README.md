@@ -38,7 +38,7 @@ Faciliter la prise de rendez-vous via WhatsApp et Instagram
 
 ### Environnement de travail
 - IDE : Webstorm
-- Navigateurs de test : …
+- Navigateurs de test : Edge
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
 
@@ -65,16 +65,16 @@ Faciliter la prise de rendez-vous via WhatsApp et Instagram
 ## 4. ✅ Tests et validation
 
 ### Validation technique
-- HTML Validator : résultat …
-- CSS Validator : résultat …
+- HTML Validator : résultat : 1 warning et le reste ok
+- CSS Validator : résultat : aucune erreur trouvée
 - PageSpeed Insights :  
-  - Performance : …/100  
-  - Accessibilité : …/100  
-  - Bonnes pratiques : …/100  
-  - SEO : …/100  
+  - Performance : 95/100  
+  - Accessibilité : 100/100  
+  - Bonnes pratiques : 100/100  
+  - SEO : 91/100  
 
 ### Compatibilité
-- Navigateurs testés : Chrome …, Firefox …, Safari …
+- Navigateurs testés : Firefox, Safari, Edge
 - Appareils testés : mobile, tablette, desktop
 
 ### Accessibilité
