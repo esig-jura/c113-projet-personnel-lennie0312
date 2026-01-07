@@ -72,6 +72,7 @@ Faciliter la prise de rendez-vous via WhatsApp et Instagram
   - Accessibilité : 100/100  
   - Bonnes pratiques : 100/100  
   - SEO : 91/100  
+Ces tests ont été effectués en local, étant donné que la vdi est plus lente
 
 ### Compatibilité
 - Navigateurs testés : Firefox, Safari, Edge
